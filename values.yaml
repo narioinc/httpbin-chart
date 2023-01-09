@@ -7,7 +7,7 @@ replicaCount: 1
 
 image:
   # -- Image repository
-  repository: mccutchen/go-httpbin
+  repository: kennethreitz/httpbin
   # -- Image pull policy
   pullPolicy: IfNotPresent
   # -- Image tag
